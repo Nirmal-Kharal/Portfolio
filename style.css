@@ -205,7 +205,10 @@ nav .navlinks li a{
     }
 }
 @media(max-width:600px)
-{
+{    body{
+    height: 100%;
+    width: 100%;
+}
     .container{
         flex-direction: column;
         padding-top:2rem
