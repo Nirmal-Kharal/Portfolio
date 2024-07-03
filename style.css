@@ -4,6 +4,8 @@
     margin: 0;
     font-family: poppins,sans-serif;
     text-decoration: none;
+    height: 100%;
+    width: 100%;
 }
 body{
     overflow-x: hidden;
@@ -202,7 +204,7 @@ nav .navlinks li a{
         right:0;
     }
 }
-@media(max-width:768px)
+@media(max-width:600px)
 {
     .container{
         flex-direction: column;
